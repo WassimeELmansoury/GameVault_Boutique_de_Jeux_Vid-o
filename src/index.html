@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Vault</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-<body>
-    <header class="w-full py-4 flex justify-center items-center bg-white border-b border-gray-100">
+<body class="px-4">
+    <header class="w-full flex justify-center items-center bg-white border-b border-gray-100">
         <div id="logo-container" class="max-w-[150px]">
             <button>
                 <img src="./images/logo.png" alt="GameZone Logo" class="w-full h-auto object-contain">
             </button>
         </div>
     </header>
-    <section id="main-header" class="px-4 py-2">
+    <nav id="main-header" class="px-4 py-2">
         <div class="flex items-center justify-between gap-4">
             
             <div class="flex-1 relative">
@@ -22,9 +24,15 @@
             </div>
     
             <div class="flex-shrink-0">
-                <img src="./images/account.png" alt="account" class="w-[40px] h-[40px] rounded-full">
+                <img src="./images/account.png" alt="user" class="w-[40px] h-[40px] rounded-full">
             </div>
-    
+        </div>
+    </nav>
+    <section id="filter-category">
+        <div>
+            <i class="fa fa-sliders text-xl"></i>
+        </div>
+        <div id="type-category">
         </div>
     </section>
 
