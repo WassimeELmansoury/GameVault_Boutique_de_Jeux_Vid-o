@@ -1,2 +1,1 @@
-const mainHeader = document.getElementById ("main-header");
-type-categoryz
+const typeCategory = document.getElementById("type-category");
